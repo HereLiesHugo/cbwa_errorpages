@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>400 - Bad Request</title>
+  <style>
+    /* Copy of your existing error page styles */
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #2c2c2c;
+      color: #ffffff;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #ff8c00;
+      text-shadow: 2px 2px 0px #000000;
+      margin-bottom: 15px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    p {
+      font-size: 24px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #ad5719;
+      font-weight: bold;
+    }
+
+    a {
+      color: #d46414;
+      text-decoration: none;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .home-link:hover {
+      color: #ff7d26;
+      font-size: 110%;
+    }
+    .home-link {
+      transition: all 0.2s ease;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>400 - Bad Request</h1>
+    <p>Your request contains invalid syntax.</p>
+    <p><a href="/index.php" class="home-link">Return to Home</a></p>
+  </div>
+</body>
+</html>
